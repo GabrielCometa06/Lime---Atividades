@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Milonga&display=swap");
+
+body {
+  border: 10px rgb(211, 211, 211);
+  height: 800px;
+  background-image: linear-gradient(rgb(229, 124, 239) 60%, aqua);
+}
+
+.texto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 80px;
+}
+
+.h3 {
+  font-family: milonga;
+  border-radius: 50px;
+  background-color: aqua;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -20px;
+}
+
+.image {
+  display: flex;
+  justify-content: start;
+  margin-top: -160px;
+}
+
+.image2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.lupa {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 0px;
+  align-items: flex-end;
+}
+
+.desenho {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.texto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 320px;
+  margin-right: 80px;
+}
+.sub {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 320px;
+  margin-right: 20px;
+  margin-top: -30px;
+  color: aliceblue;
+}
+
+.fonte {
+  font-family: milonga;
+  font-size: 30px;
+}
+
+.linha {
+  border: solid 1px aqua;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.text{
+  font-family: milonga;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quabranco{
+  position: absolute;
+  border-radius: 20px;
+  margin-left: 590px;
+  top: 350px;
+  width: 130px;
+  height: 160px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.923));
+  z-index: -1;
+}
+.preço{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: -360PX;
+  margin-top: 10px;
+}
+#p{
+  border: 5px solid pink;
+  background-color: pink;
+  width: 70px;
+  height: 20px;
+  font-family: milonga;
+}
+.quabranco1{
+  position: absolute;
+  border-radius: 20px;
+  margin-left: 790px;
+  top: 350px;
+  width: 130px;
+  height: 160px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.923));
+  z-index: -1;
+}
+.preço1{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: -210px;
+}
+#p1{
+  border: 5px solid gray;
+  background-color: gray;
+  width: 70px;
+  height: 20px;
+  font-family: milonga;
+}
+
+.quabranco2{
+  position: absolute;
+  border-radius: 20px;
+  margin-left: 980px;
+  top: 350px;
+  width: 130px;
+  height: 160px;
+  background-image: linear-gradient(rgba(255, 255, 255, 0.93), rgba(255, 255, 255, 0.923));
+  z-index: -1;
+}
+.preço2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 420PX;
+  margin-top: -202px;
+}
+#p2{
+  border: 5px solid pink;
+  background-color: pink;
+  width: 70px;
+  height: 20px;
+  font-family: milonga;
+}
+
+button{
+  background-color:wheat;
+  display:inline-block;
+  place-items: center;
+  font-size: 10px;
+  border-radius: 50px;
+  border: 0px;
+  padding: 17px 40px;
+}
+button:hover{
+  background-color:rgb(154, 138, 109);
+  color: wheat;
+  box-shadow: black;
+}
+
+.batata{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-right: 900px;
+}
+
+.batata1{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 200px;
+  margin-top: -85px;
+}

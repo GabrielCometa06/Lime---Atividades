@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=Milonga&display=swap");
+
+body {
+  border: 10px rgb(211, 211, 211);
+  height: 800px;
+  background-image: linear-gradient(rgb(229, 124, 239) 60%, aqua);
+}
+
+.texto {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 80px;
+}
+
+.h3 {
+  font-family: milonga;
+  border-radius: 50px;
+  background-color: aqua;
+  height: 40px;
+  width: 200px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: -60px;
+}
+
+.image {
+  display: flex;
+  justify-content: start;
+  margin-top: -200px;
+}
+
+.image2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.lupa {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -20px;
+  align-items: flex-end;
+}
+
+.desenho {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.texto {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 320px;
+  margin-right: 80px;
+}
+.sub {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 320px;
+  margin-right: 20px;
+  margin-top: -30px;
+  color: aliceblue;
+}
+
+.linha {
+  border: solid 1px aqua;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: -40px;
+}
+
+.divv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 90px;
+  margin-right: 30px;
+  margin-top: -500px;
+  border-radius: 15px;
+}
+
+.fundo{
+  border: white;
+  background-color: aliceblue;
+  height: 480px;
+  width: 550px;
+  margin-top:60px;
+  border-radius: 20px;
+  margin-left: 600px;
+  margin-right: 200px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+}
+
+.h2{
+    font-family: milonga;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.h1{
+    font-family: milonga;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.fonte {
+  font-family: milonga;
+  font-size: 30px;
+}
+
+.p2{
+  font-family: milonga;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 10px;
+  margin-top: 40px;
+}
+
+#cor{
+  background-color: rgb(94, 94, 232);
+  border-radius: 15px;
+  width: 280px;
+}
+
+.org{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -80px;
+  gap: 100px;
+  margin-left: 720px;
+  margin-right: -100px;
+}
+
+.p{
+  font-family: milonga;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.linha2 {
+  border: solid 1px purple;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 30px;
+}
+
+.textolinha {
+  position: absolute;
+  width: 222.32px;
+  height: 15.11px;
+  left: 400px;
+  top: 770px;
+  display:flex ;
+  justify-content: space-between;
+  flex-direction: row;
+  gap: 200px;
+
+  font-family: "IM FELL Great Primer";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+
+  color: #000000;
+}
